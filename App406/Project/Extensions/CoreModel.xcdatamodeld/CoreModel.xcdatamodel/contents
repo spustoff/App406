@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CarsModel" representedClassName="CarsModel" syncable="YES" codeGenerationType="class">
+        <attribute name="carCharacteristic" optional="YES" attributeType="String"/>
+        <attribute name="carColor" optional="YES" attributeType="String"/>
+        <attribute name="carMileage" optional="YES" attributeType="String"/>
+        <attribute name="carModel" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DreamModel" representedClassName="DreamModel" syncable="YES" codeGenerationType="class">
+        <attribute name="dreamCharacteristic" optional="YES" attributeType="String"/>
+        <attribute name="dreamColor" optional="YES" attributeType="String"/>
+        <attribute name="dreamModel" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ExpensesModel" representedClassName="ExpensesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="exAmount" optional="YES" attributeType="String"/>
+        <attribute name="exCategory" optional="YES" attributeType="String"/>
+        <attribute name="exName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
