@@ -21,7 +21,7 @@ struct Not: View {
             
             VStack {
                 
-                Image("Not")
+                Image("users_3")
                     .resizable()
                     .ignoresSafeArea()
             }
@@ -33,10 +33,12 @@ struct Not: View {
                 Text("Don’t miss anything")
                     .foregroundColor(.white)
                     .font(.system(size: 28, weight: .bold))
+                    .padding(.leading)
                 
                 Text("Don’t miss the most useful information")
                     .foregroundColor(.gray)
                     .font(.system(size: 16, weight: .regular))
+                    .padding(.leading)
                 
                 HStack {
 
@@ -55,7 +57,7 @@ struct Not: View {
                             .foregroundColor(.white)
                             .font(.system(size: 13, weight: .semibold))
                             .frame(width: 160, height: 50)
-                            .background(RoundedRectangle(cornerRadius: 30).fill(.gray.opacity(0.5)))
+                            .background(RoundedRectangle(cornerRadius: 30).fill(Color(red: 31/255, green: 107/255, blue: 255/255)))
                     })
                 }
                 .padding()

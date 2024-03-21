@@ -15,7 +15,6 @@
 		78DEEA232BA1BDAB00ED9C3D /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA222BA1BDAB00ED9C3D /* TabBar.swift */; };
 		78DEEA252BA1BDB200ED9C3D /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA242BA1BDB200ED9C3D /* R1.swift */; };
 		78DEEA272BA1BDB900ED9C3D /* R2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA262BA1BDB900ED9C3D /* R2.swift */; };
-		78DEEA2B2BA1BDCB00ED9C3D /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA2A2BA1BDCB00ED9C3D /* U1.swift */; };
 		78DEEA2D2BA1BDD100ED9C3D /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA2C2BA1BDD100ED9C3D /* Reviews.swift */; };
 		78DEEA2F2BA1BDDB00ED9C3D /* Join.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA2E2BA1BDDB00ED9C3D /* Join.swift */; };
 		78DEEA312BA1BDE100ED9C3D /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEA302BA1BDE100ED9C3D /* Not.swift */; };
@@ -55,7 +54,6 @@
 		78DEEA222BA1BDAB00ED9C3D /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		78DEEA242BA1BDB200ED9C3D /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
 		78DEEA262BA1BDB900ED9C3D /* R2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2.swift; sourceTree = "<group>"; };
-		78DEEA2A2BA1BDCB00ED9C3D /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
 		78DEEA2C2BA1BDD100ED9C3D /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		78DEEA2E2BA1BDDB00ED9C3D /* Join.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Join.swift; sourceTree = "<group>"; };
 		78DEEA302BA1BDE100ED9C3D /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
@@ -207,7 +205,6 @@
 		78DEEA1D2BA1BD8500ED9C3D /* User */ = {
 			isa = PBXGroup;
 			children = (
-				78DEEA2A2BA1BDCB00ED9C3D /* U1.swift */,
 				78DEEA2C2BA1BDD100ED9C3D /* Reviews.swift */,
 				78DEEA2E2BA1BDDB00ED9C3D /* Join.swift */,
 				78DEEA302BA1BDE100ED9C3D /* Not.swift */,
@@ -391,7 +388,6 @@
 				78DEEA212BA1BDA400ED9C3D /* CoreDataStack.swift in Sources */,
 				78DEEA582BA1F67B00ED9C3D /* GeneralExpenses.swift in Sources */,
 				78DEEA2F2BA1BDDB00ED9C3D /* Join.swift in Sources */,
-				78DEEA2B2BA1BDCB00ED9C3D /* U1.swift in Sources */,
 				784E3F2B2BA1BA8400016332 /* ContentView.swift in Sources */,
 				784E3F292BA1BA8400016332 /* App406App.swift in Sources */,
 				78DEEA452BA1DF3F00ED9C3D /* Array.swift in Sources */,
@@ -543,12 +539,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App406/App406.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"App406/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App406/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Smart Overdrive";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Option";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -564,7 +560,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App406;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -583,12 +579,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App406/App406.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"App406/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App406/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Smart Overdrive";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Option";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -604,7 +600,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App406;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

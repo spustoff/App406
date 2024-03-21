@@ -12,7 +12,7 @@ struct LoadingView: View {
 
         ZStack {
             
-            Color.black
+            Color("bg3")
                 .ignoresSafeArea()
             
             VStack {

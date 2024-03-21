@@ -22,7 +22,7 @@ struct Reviews: View {
             
             VStack {
                 
-                Image("Reviews")
+                Image("users_1")
                     .resizable()
                     .ignoresSafeArea()
             }
@@ -34,10 +34,12 @@ struct Reviews: View {
                 Text("Rate our app in the AppStore")
                     .foregroundColor(.white)
                     .font(.system(size: 28, weight: .bold))
+                    .padding(.leading)
                 
                 Text("Help make the app even better")
                     .foregroundColor(.gray)
                     .font(.system(size: 16, weight: .regular))
+                    .padding(.leading)
                 
                 HStack {
                     
@@ -70,7 +72,7 @@ struct Reviews: View {
                             .foregroundColor(.white)
                             .font(.system(size: 15, weight: .semibold))
                             .frame(width: 160, height: 50)
-                            .background(RoundedRectangle(cornerRadius: 30).fill(.gray.opacity(0.5)))
+                            .background(RoundedRectangle(cornerRadius: 30).fill(Color(red: 31/255, green: 107/255, blue: 255/255)))
                     })
                 }
                 .padding()

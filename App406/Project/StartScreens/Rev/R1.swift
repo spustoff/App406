@@ -12,7 +12,7 @@ struct R1: View {
 
         ZStack {
             
-            Color.black
+            Color.white
                 .ignoresSafeArea()
             
             VStack {
@@ -29,10 +29,12 @@ struct R1: View {
                 Text("Your cars")
                     .foregroundColor(.white)
                     .font(.system(size: 28, weight: .bold))
+                    .padding(.leading)
                 
                 Text("The relevance of your cars is under control")
                     .foregroundColor(.gray)
                     .font(.system(size: 16, weight: .regular))
+                    .padding(.leading)
                 
                 HStack {
                     
@@ -57,7 +59,7 @@ struct R1: View {
                             .foregroundColor(.white)
                             .font(.system(size: 15, weight: .semibold))
                             .frame(width: 160, height: 50)
-                            .background(RoundedRectangle(cornerRadius: 30).fill(.gray.opacity(0.5)))
+                            .background(RoundedRectangle(cornerRadius: 30).fill(Color(red: 31/255, green: 107/255, blue: 255/255)))
                     })
                 }
                 .padding()

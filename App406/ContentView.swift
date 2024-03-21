@@ -79,7 +79,7 @@ struct ContentView: View {
                         
                     } else {
                         
-                        U1(telegram: telegram, isTelegram: isTelegram)
+                        Reviews(telegram: telegram, isTelegram: isTelegram)
                     }
                 }
             }

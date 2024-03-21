@@ -20,7 +20,7 @@ struct Join: View {
             
             VStack {
                 
-                Image("Join")
+                Image("users_2")
                     .resizable()
                     .ignoresSafeArea()
             }
@@ -32,10 +32,12 @@ struct Join: View {
                 Text("Join and earn")
                     .foregroundColor(.white)
                     .font(.system(size: 28, weight: .bold))
+                    .padding(.leading)
                 
                 Text("Join our Telegram group trade with our team")
                     .foregroundColor(.gray)
                     .font(.system(size: 16, weight: .regular))
+                    .padding(.leading)
                 
                 HStack {
 
@@ -51,7 +53,7 @@ struct Join: View {
                             .foregroundColor(.white)
                             .font(.system(size: 15, weight: .semibold))
                             .frame(width: 160, height: 50)
-                            .background(RoundedRectangle(cornerRadius: 30).fill(.blue))
+                            .background(RoundedRectangle(cornerRadius: 30).fill(Color(red: 0/255, green: 163/255, blue: 255/255)))
                     })
                 }
                 .padding()
